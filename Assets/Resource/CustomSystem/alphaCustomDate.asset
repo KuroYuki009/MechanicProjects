@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d840b001c911484f80c3f8828e473fc, type: 3}
+  m_Name: alphaCustomDate
+  m_EditorClassIdentifier: 
+  CcstomDate:
+  - Name: Bleacher
+    IconString: 
+    Commentary: "\u885D\u6483\u4FE1\u7BA1\u5F3E\u3092\u767A\u5C04\u3059\u308B\u3002\n\u540D\u524D\u7684\u306B\u3042\u305F\u3063\u305F\u3089\u4E00\u5B9A\u6642\u9593\u5F8C\u306B\u4F5C\u52D5\u3057\u305D\u3046\u3002"
+    ReferenceString: 
+  - Name: Magnum
+    IconString: 
+    Commentary: "\u5F53\u305F\u3063\u305F\u5BFE\u8C61\u306B\u5F37\u529B\u306A\u885D\u6483\u3092\u4E0E\u3048\u308B\n(\u4E00\u6642\u79FB\u52D5\u963B\u5BB3)\n"
+    ReferenceString: 
+  - Name: kokonamae
+    IconString: 
+    Commentary: "\u306A\u3093\u304B\u8AAC\u660E\u3002\n"
+    ReferenceString: 
