@@ -22,7 +22,7 @@
 プレイヤーとの距離がかなり離れていた場合には処理を追跡モードに切り替えます。
 追尾モードに切り替わって一定時間はプレイヤーの脱出地点の方向へ走らせて、少し経ったらプレイヤーの方向へ移動するようにさせています。
 <br>
-(参考処理：[メゾット"Searching"](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/NewEnemySystem/EnemyCommonManager.cs#L79-L103))
+(参照処理：[メゾット"Searching"](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/NewEnemySystem/EnemyCommonManager.cs#L79-L103))
 
 ### __ロックオンミサイル__
 
@@ -30,7 +30,7 @@
 追尾ミサイルの実装には、標的へ飛んでいく弾とそれらを発射するランチャーの二つで実現できています。
 ランチャー側で弾を生成した時に標的のTransformを渡す事でそのオブジェクトへ自動で飛んでいきます。
 <br>
-(参考：[ランチャー側のスクリプト](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/Weapon/MicroMissileSystem/MicroMissileGenerator.cs)、
+(参照：[ランチャー側のスクリプト](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/Weapon/MicroMissileSystem/MicroMissileGenerator.cs)、
 [ミサイル側のスクリプト](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/Weapon/MicroMissileSystem/MicroMissile_Weapon.cs))
 
 >#### __ミサイルのロックオン処理__
@@ -39,6 +39,6 @@
 仕組みとしては、敵が生成された時に敵に追従し続けるカーソルUIを非表示で生成させておき、プレイヤーがミサイルを装備した時にCanvas上でロックオン範囲となるオブジェクトが有効化された時、
 その中に含まれるCollider2Dに衝突した敵カーソルは表示され、紐図けられた敵オブジェクトの情報をランチャー側に渡します。
 <br>
-(参考:[カーソルUIのスクリプト](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/Weapon/MicroMissileSystem/LockOnModule/LockOnCursorConvert.cs)、
+(参照:[カーソルUIのスクリプト](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/Weapon/MicroMissileSystem/LockOnModule/LockOnCursorConvert.cs)、
 [ランチャー側のスクリプト](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/Weapon/MicroMissileSystem/MicroMissileGenerator.cs)、
 [ミサイル側のスクリプト](https://github.com/KuroYuki009/MechanicProjects/blob/main/Assets/Weapon/MicroMissileSystem/MicroMissile_Weapon.cs)))
